@@ -1,0 +1,127 @@
+/*
+**
+** Styles For Project One By: Kareem Adel
+**
+*/
+
+/*Main Theme Style*/
+html{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family: Oswald,sans-serif;
+}
+
+/* Start Nav Style */
+nav{
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #7d97ad ;
+}
+.nav-img{
+    display: inline-block;
+}
+nav img{
+    width: 100px;
+    margin: 0 15px ;
+    display: inline-block;
+}
+nav .name{
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+nav .name h1,
+nav .name h5{
+    color: #2d3c49;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: right; 
+}
+nav .name h1{
+    font-size: 3.2em; 
+}
+nav .name h5{
+    font-size: 1.6em; 
+}
+/* End Nav Style */
+
+
+/* Start Main Style */
+.main{
+    width: 100%;
+}
+.main .main-img{
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main .main-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #7d97ad;
+    
+}
+
+/* Start Featured Work Section */
+.featured-work{
+    width: 100%;
+}
+.featured-work h1{
+    color: #7d97ad;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+/* Start One Featur Div */
+.one-feature {
+    position: relative;
+    padding: 0 10px 50px 0;
+    height: 250px;
+    margin-bottom: 50px;
+}
+.one-feature img{
+    width: 100%;
+    height: 100%;
+    border: 3px solid #7d97ad;
+}
+.one-feature h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+.one-feature h4,
+.one-feature a{
+    color: #7d97ad;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.one-feature a:hover{
+    color: #02b3e4;
+    text-decoration: none;
+}
+/* End One Featur Div */
+/* End Featured Work Section */
+
+/* Media Query For Editing Min Content Size */
+@media screen and (max-width:518px){ 
+    nav .name h1{
+        font-size: 1.8em; 
+    }
+    nav .name h5{
+        font-size: 1em; 
+    }
+    nav img{
+        width: 70px;
+    }
+    .main .main-img{
+        min-height: 250px;
+    }
+}
